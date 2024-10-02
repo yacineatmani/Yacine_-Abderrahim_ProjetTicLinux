@@ -15,3 +15,6 @@ if [ "$choix" = "1" ]; then
         read tache
         echo "$tache" >> tasks.txt
         echo "Tâche ajoutée!"
+ elif [ "$choix" = "2" ]; then
+        echo "Voici vos tâches:"
+        cat tasks.txt
