@@ -9,3 +9,4 @@ while true; do
     3. Quitter
     "
 echo "Choisissez une option (1/2/3): "
+read choix
