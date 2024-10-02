@@ -10,3 +10,8 @@ while true; do
     "
 echo "Choisissez une option (1/2/3): "
 read choix
+if [ "$choix" = "1" ]; then
+        echo "Entrez votre tâche:"
+        read tache
+        echo "$tache" >> tasks.txt
+        echo "Tâche ajoutée!"
