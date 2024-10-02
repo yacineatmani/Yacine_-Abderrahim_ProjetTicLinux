@@ -8,3 +8,4 @@ while true; do
     2. Afficher les tâches
     3. Quitter
     "
+echo "Choisissez une option (1/2/3): "
