@@ -22,3 +22,7 @@ if [ "$choix" = "1" ]; then
  elif [ "$choix" = "3" ]; then
         echo "Au revoir!"
         exit
+else
+        echo "Option non valide. Veuillez réessayer."
+    fi
+done
