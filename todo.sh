@@ -18,3 +18,7 @@ if [ "$choix" = "1" ]; then
  elif [ "$choix" = "2" ]; then
         echo "Voici vos tâches:"
         cat tasks.txt
+
+ elif [ "$choix" = "3" ]; then
+        echo "Au revoir!"
+        exit
