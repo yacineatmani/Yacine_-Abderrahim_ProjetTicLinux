@@ -53,6 +53,6 @@ Une option 5 qui me permet d'effacer tout la liste, sans que cela me fasse quitt
 
 Bonus 2 (Un extra non obligatoire, si tout est fait):
 
-Pouvoir modifier une tâche existante. 
+Pouvoir modifier une tâche existante. // 
 
  
