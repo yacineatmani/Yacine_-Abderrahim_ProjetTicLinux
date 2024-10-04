@@ -6,11 +6,13 @@ echo "Bienvenue dans votre gestionnaire de tâches!"
 # Boucle infinie pour maintenir le programme en cours d'exécution
 while true; do
     echo "
+   ================================ 
     1. Ajouter une tâche
     2. Afficher les tâches
     3. Modifier une tâche
     4. Effacer toutes les tâches
     5. Quitter
+   ================================
     "
 
     # Demande à l'utilisateur de choisir une option
