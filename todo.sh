@@ -9,10 +9,11 @@ while true; do
     1. Ajouter une tâche
     2. Afficher les tâches
     3. Quitter
+    4. Effacer toutes les tâches
     "
 
     # Demande à l'utilisateur de choisir une option
-    echo "Choisissez une option (1/2/3): "
+    echo "Choisissez une option (1/2/3/4): "
     read choix
 
     # Si l'utilisateur choisit d'ajouter une tâche
@@ -33,6 +34,12 @@ while true; do
     elif [ "$choix" = "3" ]; then
         echo "Au revoir!"
         exit  # Quitte le script
+
+    # Si l'utilisateur choisit d'effacer toutes les tâches
+    elif [ "$choix" = "4" ]; then
+        # Efface le contenu du fichier tasks.txt
+        > tasks.txt
+        echo "Toutes les tâches ont été effacées."
 
     # Si l'utilisateur choisit une option invalide
     else
