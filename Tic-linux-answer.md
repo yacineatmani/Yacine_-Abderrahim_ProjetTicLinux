@@ -1,4 +1,5 @@
 exercice Tic linux
+installé tree dans git bash pour les window  cmd //c tree //a //f
 
 
 Exercices de base (Partie 1) :
