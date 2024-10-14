@@ -5,7 +5,7 @@ Exercices de base (Partie 1) :
  
 
 Exercice 1 : Créer un dossier ‘exo1’ à l’intérieur un fichier ‘monfichier.txt’.
-***mkdir exo1/monfichier.txt***
+***mkdir -p exo1/monfichier.txt***
 
 Exercice 2:  Affiche moi le chemin absolu du dossier courant.
 ***pwd***
